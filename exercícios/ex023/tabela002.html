@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td,th {
@@ -27,15 +28,27 @@
         }
 
         thead {
-            background-color: gray;
+            background-color: rgb(71, 71, 71);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(71, 71, 71);
+        }
+
+        tbody > tr:nth-child(odd) { 
+            /*odd=impar even=par 2n 2n-1*/
+            background-color: lightgray;
         }
 
         td.num {
             text-align: right;
         }
+
         tfoot {
-            background-color: gray;
+            background-color: rgb(71, 71, 71);
             color: white
         }
     </style>
@@ -58,7 +71,7 @@
                 <th scope="col">Nº</th>
                 <th scope="col">Estado</th>
                 <th scope="col">População</th>
-                <th scope="col" style="width: 50px;">% da pop. total</th>
+                <th scope="col" style="width: 60px;">% pop. total</th>
             </tr>
         </thead>
         <tbody>
@@ -237,5 +250,16 @@
             </tr>
         </tfoot>
     </table>
+
+    <h1>Lorem</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nostrum cupiditate et rem repellat quibusdam, dolorum libero voluptas quod accusantium, deserunt repellendus voluptatum debitis laborum? Dignissimos laudantium animi quibusdam cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nesciunt fugiat eaque perspiciatis nisi? Dolorem repellat neque culpa totam dicta perspiciatis quis voluptas, commodi nam illo nobis ipsa error doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi fugiat veritatis deserunt ipsa. Magni, quis. Minima numquam, incidunt quod architecto quam vel quibusdam omnis aliquid adipisci nam at cumque eos.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nostrum cupiditate et rem repellat quibusdam, dolorum libero voluptas quod accusantium, deserunt repellendus voluptatum debitis laborum? Dignissimos laudantium animi quibusdam cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nesciunt fugiat eaque perspiciatis nisi? Dolorem repellat neque culpa totam dicta perspiciatis quis voluptas, commodi nam illo nobis ipsa error doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi fugiat veritatis deserunt ipsa. Magni, quis. Minima numquam, incidunt quod architecto quam vel quibusdam omnis aliquid adipisci nam at cumque eos.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nostrum cupiditate et rem repellat quibusdam, dolorum libero voluptas quod accusantium, deserunt repellendus voluptatum debitis laborum? Dignissimos laudantium animi quibusdam cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nesciunt fugiat eaque perspiciatis nisi? Dolorem repellat neque culpa totam dicta perspiciatis quis voluptas, commodi nam illo nobis ipsa error doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi fugiat veritatis deserunt ipsa. Magni, quis. Minima numquam, incidunt quod architecto quam vel quibusdam omnis aliquid adipisci nam at cumque eos.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nostrum cupiditate et rem repellat quibusdam, dolorum libero voluptas quod accusantium, deserunt repellendus voluptatum debitis laborum? Dignissimos laudantium animi quibusdam cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nesciunt fugiat eaque perspiciatis nisi? Dolorem repellat neque culpa totam dicta perspiciatis quis voluptas, commodi nam illo nobis ipsa error doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi fugiat veritatis deserunt ipsa. Magni, quis. Minima numquam, incidunt quod architecto quam vel quibusdam omnis aliquid adipisci nam at cumque eos.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nostrum cupiditate et rem repellat quibusdam, dolorum libero voluptas quod accusantium, deserunt repellendus voluptatum debitis laborum? Dignissimos laudantium animi quibusdam cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nesciunt fugiat eaque perspiciatis nisi? Dolorem repellat neque culpa totam dicta perspiciatis quis voluptas, commodi nam illo nobis ipsa error doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi fugiat veritatis deserunt ipsa. Magni, quis. Minima numquam, incidunt quod architecto quam vel quibusdam omnis aliquid adipisci nam at cumque eos.</p>
 </body>
 </html>
